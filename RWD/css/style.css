@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+     /* border: 1px solid; */
+}
+
+.container div {
+
+    /* border:1px solid; */
+    width: 100%;
+    
+    margin-bottom: 7px;
+    display: inline-block;
+
+
+
+}
+
+.org {
+
+    background-color: orange;
+    height: 100px;
+}
+
+.grn {
+
+    background-color: greenyellow;
+    height: 200px;
+}
+
+.blu {
+
+    background-color: #6868f9;
+    height: 300px;
+}
+
+.gry {
+
+    background-color: gainsboro;
+    height: 100px;
+}
+
+@media only screen and (min-width:768px) {
+
+
+    .container .grn {
+
+         height: 300px;
+    }
+
+    .container .blu {
+
+        height: 200px;
+    }
+
+    .container .gry {
+
+        width:48.9%;
+          margin: 5px 3px;     
+    }
+}
+@media only screen and (min-width:1024px) {
+
+    
+    
+    .container .org{
+        width:49.7%;
+        
+    }
+
+     .container .grn {
+
+         height: 410px;
+    }
+
+    .container .blu {
+        width: 33%;
+        height: 220px;
+        
+    }
+
+    .container .gry {
+
+        width:24%;
+       
+    }
+}
