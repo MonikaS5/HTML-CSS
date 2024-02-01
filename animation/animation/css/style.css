@@ -1,0 +1,37 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation: myAnimation 2s 3;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+/* @keyframes myAnimation{
+    from{
+        transform: translateX(0px) rotateZ(0deg);
+        transition-duration: 4s;
+    }
+    to{
+        transform: translateX(1000px)rotateZ(360deg) ;
+        background-color: yellow;
+        border-radius: 100%;
+    }
+} */
+
+@keyframes myAnimation{
+    0%{
+        transform: translateX(0px) rotateZ(0deg);
+    }
+    25%{
+        transform: translateX(300px) rotateZ(360deg);
+        background-color: orange;
+    }
+    75%{
+        transform: translateX(700px) rotateZ(360deg);
+    }
+    100%{
+        transform: translateX(1000px)rotateZ(360deg) ;
+        background-color: yellow;
+        border-radius: 100%; 
+    }
+}
