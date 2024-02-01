@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+
+</head>
+
+<body>
+    <form method="post">
+
+    <h2 align="center"> Student Registration Form </h2>
+    <hr>
+    <p> <label for="Fname"> FirstName :</label>
+    </p>
+
+
+    <input type="text" name="FirstName" placeholder="Enter Your First Name" id="Fname">
+
+
+    <p>
+        <label for="Mname">MiddleName :</label>
+    </p>
+    <input type="text" name="MiddleName" placeholder="Enter Your Middle Name" id="Mname">
+
+
+    <p>
+        <label for="Lname">LastName :</label>
+    </p>
+    <input type="text" name="LastName" placeholder="Enter Your Last Name" id="Lname">
+
+
+
+
+    <p> <label for="course"> Course :</label>
+        <select name="Course">
+        
+            <option value="Select Here" disabled selected> Select the Course</option>
+            <option value="JAVA">Computer</option>
+            <option value=".NET">.NET</option>
+            <option value="PHP">PHP</option>
+            <option value="Python"> PYTHON</option>
+            <option value="HTML">HTML</option>
+
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="Gender">Gender</label>
+    </p>
+
+    <input type="radio" name="Gender" value="M" id="m" checked>
+    <label for="m">Male</label>
+    <input type="radio" name="Gender" value="F" id="f">
+    <label for="f">Female</label>
+    <input type="radio" name="Gender" value="O" id="o">
+    <label for="o">Other</label>
+
+    <p><label for="phone">Phone</label></p>
+    <input type="text" id="phone" name="phone" value="+91">
+    <p><input type="text" placeholder="Phone no." value=""></p>
+
+    <p><label for="Caddr">Current Address</label></p>
+    <textarea name="Current Address" placeholder="Current Address" id="" cols="20" rows="5"></textarea>
+    <p><label for="Email">Email:</label></p>
+    <input type="email" placeholder="Enter Email" id="email">
+    <p><label for="pass">Password</label></p>
+    <input type="password" placeholder="Enter Password" id="pass">
+    <p><label for="repass">Retype Password</label></p>
+    <input type="password" placeholder="Retype Password" id="repass">
+    <p>
+        <input type="submit" name="Register" value="Register">
+
+    </p>
+
+
+
+</form>
+
+
+</body>
+
+</html>
